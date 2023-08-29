@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	/* list-style: cambodian; */
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	max-width: 1200px;
+	margin: 0px auto;
+
+}
+header{
+    background-color: #ff7b00;
+    padding: 15px 150px 16px 150px;
+}
+nav a{
+color: #fff;
+	text-decoration:none;
+	padding-left:20px;
+}
+main{
+    background-color: bisque;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 30px 100px 1px 100px;
+    line-height: 28px;
+}
+.list{
+    background-color: #005979;
+    color: bisque;
+    width: 200px;
+    margin: 0px -22px 0px 52px;
+    padding: 30px 35px;
+    list-style-position: outside;
+    font-size: 18px;
+    text-transform: capitalize;
+    box-shadow: 4px 4px 30px black;
+}
+.list3{
+    list-style-image: url(../media/checkmark.png);
+    line-height: 37px;
+}
+.second{list-style: outside;}
+.third{}
+.down{
+	color: #9c846d;
+	padding: 40px 150px;
+    font-family: 'Roboto Mono', monospace;
+}
+dt{
+	font-size:20px;
+	margin: 10px;
+	text-transform: capitalize;
+	color: #805e32;
+	line-height: 40px;
+	font-weight: 600;
+}
+dd{
+	padding-left:20px;
+	margin: 0px 35px;
+	line-height:20px;
+	font-size:14px;
+}
+footer{
+    background-color: #1f1e1c;
+    padding:25px 150px;
+}
+.inside{
+    padding-left: 5px;
+    list-style: auto;
+}
+.menu{
+    padding-left: 32px;
+}
+.submenu{
+	padding-left: 35px;
+}

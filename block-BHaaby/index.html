@@ -1,0 +1,118 @@
+- Create a layout according to the design shown below.
+
+![Creating lists Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/lists/ex-1.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>creating lists</title>
+        <link href="assets/media/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=DM+Serif+Display&family=Karla:wght@200&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik&family=Zen+Dots&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Faqs</a>
+            <a href="#">Program</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="top">
+            <div class="list">
+                <ol class="inside">
+                    <li>home</li>
+                    <li>page</li>
+                    <li>services</li>
+                    <li>about us</li>
+                    <li>portfolio</li>
+                    <ol start="20">
+                    <li>pricing</li>
+                    <li>news</li>
+                    <li>testimonia</li>
+                    <li>contact us</li>
+                </ol>
+                </ol>
+            </div>
+            <div class="list">
+                <ul class="second">
+                    <li>home</li>
+                    <li>menu
+                        <ol class="menu">
+                            <li>menu 1
+                                <ul class="submenu">
+                                    <li>sub menu 1</li>
+                                    <li>sub menu 2</li>
+                                </ul>
+                            </li>
+                            <li>menu 2</li>
+                            <li>menu 3</li>
+                            <li>menu 4</li>
+                            <li>menu 5</li>
+                        </ol>
+                    </li>
+                    <li>how we work</li>
+                    <li>about us </li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+            <div class="list list3">
+                <ul class="third">
+                 <li>home</li>
+                 <li>page</li>
+                 <li>services</li>
+                 <li>about us</li>
+                 <li>portfolio</li>
+                 <li>pricing</li>
+                 <li>news</li>
+                 <li>testimonia</li>
+                 <li>contact us</li>
+                </ul>
+            </div>
+        </section>
+        <section class="down">
+            <dl>
+                <dt>what is lorem ipsum?</dt>
+                <dd>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta laborum quam quaerat, modi earum repellat perspiciatis fugit dolorem eius vitae quasi incidunt ratione ipsa quo esse recusandae cum ab.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet est repudiandae asperiores eaque adipisci eum cumque obcaecati deleniti voluptates. Veritatis enim sapiente a vitae odit veniam voluptatem. Explicabo, veniam assumenda!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa id iure error pariatur aut? Sapiente itaque velit placeat numquam iste perspiciatis dolores blanditiis quia fuga veniam, assumenda ex nostrum?           
+            </dd>
+            </dl>
+            <dl>
+                <dt>why do we use it?</dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsum eum dignissimos, asperiores quae assumenda magni vitae repudiandae fugiat commodi nulla, totam mollitia quaerat pariatur cupiditate necessitatibus! Vero, placeat natus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eos obcaecati sed sint maiores voluptas illum mollitia impedit natus cumque facere nulla quisquam, perferendis necessitatibus eius non ipsam. Eaque, dignissimos.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi possimus autem, praesentium, rem quidem explicabo eos sunt quos neque non minus minima distinctio repudiandae numquam perspiciatis expedita consectetur nostrum repellendus.
+                </dd>
+            </dl>
+            <dl>
+                <dt>lorem ipsum<br>
+                dummy text</dt>
+                <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid enim cupiditate laudantium ducimus corporis asperiores adipisci nihil dolorum neque esse aspernatur vitae, quae tenetur? Officiis illo quam consequuntur ex officia!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque excepturi dolore, dignissimos debitis facere impedit atque rem sit eius aliquid, commodi laborum! Laboriosam odio vel ea, neque minus in?
+                </dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Faqs</a>
+            <a href="#">Program</a>
+            <a href="#">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
